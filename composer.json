@@ -1,0 +1,21 @@
+{
+    "name": "hotash/laravel-x-foreign",
+    "description": "xForeign package for Laravel.",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hotash\\XForeign\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hotash\\XForeign\\Providers\\XForeignServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "hotash/laravel-ignorable": "^1.0"
+    }
+}
